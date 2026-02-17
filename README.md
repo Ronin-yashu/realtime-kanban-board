@@ -2,6 +2,12 @@
 
 A real-time collaborative Kanban board built with WebSocket technology for instant synchronization across multiple clients.
 
+## 🚀 Live Demo
+
+- **Frontend**: https://kanban-board-frontend-liart.vercel.app/
+- **Backend**: https://kanban-backend-6mct.onrender.com
+- **GitHub**: https://github.com/Ronin-yashu/realtime-kanban-board
+
 ## Features
 
 - Drag and drop tasks between columns (To Do, In Progress, Done)
