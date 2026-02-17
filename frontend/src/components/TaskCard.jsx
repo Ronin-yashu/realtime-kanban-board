@@ -80,7 +80,7 @@ function TaskCard({ task, onupdatetask, ondeletetask }) {
       </div>
       {task.file && (
         <div className="mt-2">
-          <a href={`http://localhost:3000${task.file}`} target="_blank" rel="noreferrer" className="text-blue-600 text-sm hover:underline">
+          <a href={`https://kanban-backend-6mct.onrender.com${task.file}`} target="_blank" rel="noreferrer" className="text-blue-600 text-sm hover:underline">
             View File
           </a>
         </div>

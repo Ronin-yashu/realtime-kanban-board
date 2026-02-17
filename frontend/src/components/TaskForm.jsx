@@ -47,7 +47,7 @@ function TaskForm({ onsubmit }) {
       formdata.append('file', file)
 
       try {
-        const response = await axios.post('http://localhost:3000/api/upload', formdata)
+        const response = await axios.post('https://kanban-backend-6mct.onrender.com/api/upload', formdata)
         filepath = response.data.path
       } catch (error) {
         console.log('file upload failed')

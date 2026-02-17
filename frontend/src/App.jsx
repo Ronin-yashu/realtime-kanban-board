@@ -6,7 +6,8 @@ import KanbanBoard from './components/KanbanBoard'
 import TaskForm from './components/TaskForm'
 import ProgressChart from './components/ProgressChart'
 
-const socket = io('http://localhost:3000')
+const socket = io('https://kanban-backend-6mct.onrender.com')
+
 
 function App() {
   const [tasks, settasks] = useState([])
